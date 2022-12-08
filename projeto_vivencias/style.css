@@ -35,7 +35,7 @@ body{
 .container .main-video video{
     width: 100%;
     border-radius: 5px;
-    
+    height: 600px;
 }
 
 .container .main-video .title{
@@ -62,7 +62,7 @@ body{
 } 
 
 .container .video-list::-webkit-scrollbar-thumb{
-    background: #666;
+    background: #ccc;
     border-radius: 50px;
 } 
 
@@ -96,7 +96,7 @@ body{
 }
 
 .container .video-list .vid .title{
-    background: #333;
+    
     font-size: 17px;
 }
 
