@@ -7,7 +7,7 @@
 }
 
 body{
-    background: #eee;
+    background: #0B123B;
 }
 
 .heading{
@@ -35,7 +35,7 @@ body{
 .container .main-video video{
     width: 100%;
     border-radius: 5px;
-    height: 600px;
+    height: 450px;
 }
 
 .container .main-video .title{
@@ -91,9 +91,6 @@ body{
     background: #2980b9;
 }
 
-.container .video-list .vid.active .title{
-    background: #fff;
-}
 
 .container .video-list .vid .title{
     
