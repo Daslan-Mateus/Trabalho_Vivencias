@@ -1,4 +1,3 @@
-<style>
 /* Estilos CSS */
 body {
   font-family: Arial, sans-serif;
@@ -23,9 +22,22 @@ h1 {
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 p {
   line-height: 1.5;
+  text-align: center;
 }
-</style>
+
+.quem_somos, .nossa_equipe , .contato{
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-decoration: overline;
+}
