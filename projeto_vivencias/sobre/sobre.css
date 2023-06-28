@@ -1,7 +1,6 @@
-<style>
 /* Estilos CSS */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Rubik', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f1f1f1;
@@ -16,6 +15,7 @@ header {
 
 h1 {
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .container {
@@ -23,9 +23,21 @@ h1 {
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 p {
   line-height: 1.5;
+  text-align: center;
 }
-</style>
+
+.quem_somos, .nossa_equipe , .contato{
+  margin: 20px 20px 80px 20px;
+
+}
+
+h2 {
+  text-decoration: overline;
+}
