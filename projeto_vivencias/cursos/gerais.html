@@ -16,6 +16,7 @@
             <div class="video">
                 <video src="../videos/vid 2.mp4" controls play></video>
                 <h3 class="title">01 - o que é bluetooth - parte I</h3>
+                <p class="para">Explicação de como usar Bluetooth</p>
             </div>
         </div>
         
@@ -23,21 +24,25 @@
             <div class="vid active">
                 <video src="../videos/vid 2.mp4"></video>
                 <h3 class="title">01 - o que é bluetooth - parte I</h3>
+                <p class="para" hidden>Explicação de como usar Bluetooth - Parte 1</p>
             </div>
 
             <div class="vid">
                 <video src="../videos/vid 1.mp4"></video>
                 <h3 class="title">02 - o que é bluetooth - parte II</h3>
+                <p class="para" hidden>Explicação de como usar Bluetooth - Parte 2</p>
             </div>
 
             <div class="vid">
                 <video src="../videos/vid 3.mp4"></video>
                 <h3 class="title">03 - o que é nuvem</h3>
+                <p class="para" hidden>Explicação de como usar Nuvem</p>
             </div>
             
             <div class="vid">
                 <video src="../videos/vid 4.mp4"></video>
                 <h3 class="title">04 - O que é email</h3>
+                <p class="para" hidden>Explicação de como usar Email</p>
             </div>
             
         </div>
@@ -50,6 +55,7 @@
 let listVideo = document.querySelectorAll('.video-list .vid');
 let mainVideo = document.querySelector('.main-video video');
 let title = document.querySelector('.main-video .title');
+let para = document.querySelector(".main-video .para");
 
 listVideo.forEach(video => {
     video.onclick = () =>{
@@ -60,9 +66,10 @@ listVideo.forEach(video => {
             mainVideo.src = src;
             let text = video.children[1].innerHTML;
             title.innerHTML = text;
+            let par = video.children[2].innerHTML;
+            para.innerHTML = par;
         };
     };
-    
 });
 
 
